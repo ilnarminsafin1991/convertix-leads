@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<title>Convertix — Лидогенерация с оплатой за результат</title>
+<meta name="yandex-verification" content="d1e2c42d46e4c15f" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  :root{
+    --bg:#080C09;
+    --bg2:#0D130E;
+    --bg3:#111811;
+    --accent:#2EE87A;
+    --accent-dim:#1A9A4E;
+    --accent-glow:rgba(46,232,122,0.12);
+    --text:#F0F4F1;
+    --text2:#8A9B8E;
+    --text3:#4A5E4F;
+    --border:rgba(46,232,122,0.12);
+    --border2:rgba(240,244,241,0.08);
+    --card:#0F170F;
+    --radius:12px;
+    --radius-sm:8px;
+  }
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;font-size:16px;line-height:1.6;overflow-x:hidden}
+  a{color:inherit;text-decoration:none}
+  img{display:block;max-width:100%}
+
+  /* NAV */
+  nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:0 5%;display:flex;align-items:center;justify-content:space-between;height:64px;background:rgba(8,12,9,0.85);backdrop-filter:blur(20px);border-bottom:1px solid var(--border)}
+  .nav-logo{font-size:22px;font-weight:700;letter-spacing:-0.5px;color:var(--text)}
+  .nav-logo span{color:var(--accent)}
+  .nav-links{display:flex;align-items:center;gap:32px}
+  .nav-links a{font-size:14px;color:var(--text2);transition:color .2s}
+  .nav-links a:hover{color:var(--text)}
+  .nav-cta{background:var(--accent);color:#080C09;font-size:14px;font-weight:600;padding:10px 22px;border-radius:var(--radius-sm);transition:opacity .2s}
+  .nav-cta:hover{opacity:.85}
+
+  /* HERO */
+  .hero{min-height:100vh;padding:120px 5% 80px;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;position:relative;overflow:hidden}
+  .hero-bg{position:absolute;inset:0;background:radial-gradient(ellipse 60% 50% at 60% 40%, rgba(46,232,122,0.06) 0%, transparent 70%);pointer-events:none}
+  .hero-grid{position:absolute;inset:0;background-image:linear-gradient(var(--border2) 1px, transparent 1px),linear-gradient(90deg, var(--border2) 1px, transparent 1px);background-size:60px 60px;opacity:.5;pointer-events:none}
+  .hero-label{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:500;color:var(--accent);background:var(--accent-glow);border:1px solid rgba(46,232,122,0.2);padding:6px 14px;border-radius:100px;letter-spacing:.08em;text-transform:uppercase;margin-bottom:24px}
+  .hero-label::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--accent);animation:pulse 2s infinite}
+  h1{font-size:clamp(36px,4.5vw,64px);font-weight:700;line-height:1.1;letter-spacing:-1.5px;margin-bottom:24px}
+  h1 em{font-style:normal;color:var(--accent)}
+  .hero-sub{font-size:18px;color:var(--text2);line-height:1.7;margin-bottom:40px;max-width:480px}
+  .hero-btns{display:flex;gap:14px;flex-wrap:wrap}
+  .btn-primary{background:var(--accent);color:#080C09;font-size:15px;font-weight:600;padding:14px 28px;border-radius:var(--radius-sm);transition:opacity .2s;cursor:pointer;border:none;display:inline-flex;align-items:center;gap:8px}
+  .btn-primary:hover{opacity:.85}
+  .btn-secondary{background:transparent;color:var(--text);font-size:15px;font-weight:500;padding:14px 28px;border-radius:var(--radius-sm);border:1px solid var(--border2);transition:border-color .2s,color .2s;cursor:pointer;display:inline-flex;align-items:center;gap:8px}
+  .btn-secondary:hover{border-color:rgba(46,232,122,0.3);color:var(--accent)}
+  .hero-trust{display:flex;align-items:center;gap:24px;margin-top:36px}
+  .hero-trust span{font-size:13px;color:var(--text3)}
+  .trust-dots{display:flex;gap:6px}
+  .trust-dot{width:28px;height:28px;border-radius:50%;background:var(--bg3);border:1px solid var(--border2);display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:600;color:var(--accent)}
+
+  /* FUNNEL ANIMATION */
+  .hero-visual{position:relative;height:480px;display:flex;align-items:center;justify-content:center}
+  .funnel-wrap{position:relative;width:360px;height:440px}
+  .funnel-stage{position:absolute;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:0}
+  .fstage{background:var(--card);border:1px solid var(--border);border-radius:var(--radius-sm);padding:10px 20px;font-size:13px;font-weight:500;color:var(--text2);text-align:center;white-space:nowrap;position:relative;transition:border-color .3s}
+  .fstage.active{border-color:var(--accent);color:var(--accent)}
+  .fstage-icon{font-size:18px;margin-bottom:4px;display:block}
+  .fline{width:2px;height:28px;background:linear-gradient(var(--accent-dim),var(--bg));margin:0 auto}
+  .particle{position:absolute;width:6px;height:6px;background:var(--accent);border-radius:50%;pointer-events:none;transition:none}
+
+  /* STATS */
+  .stats{padding:80px 5%;background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+  .stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--border2)}
+  .stat-item{background:var(--bg2);padding:40px 32px;text-align:center}
+  .stat-num{font-size:clamp(36px,4vw,52px);font-weight:700;color:var(--accent);font-family:'DM Mono',monospace;letter-spacing:-2px;line-height:1}
+  .stat-label{font-size:14px;color:var(--text2);margin-top:10px;line-height:1.4}
+
+  /* SECTION COMMON */
+  section{padding:100px 5%}
+  .section-eyebrow{font-size:12px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:12px}
+  h2{font-size:clamp(28px,3vw,44px);font-weight:700;letter-spacing:-1px;line-height:1.15;margin-bottom:16px}
+  .section-sub{font-size:17px;color:var(--text2);max-width:560px;line-height:1.7}
+  .section-header{margin-bottom:64px}
+
+  /* NICHES */
+  .niches-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--border2)}
+  .niche-card{background:var(--card);padding:36px;cursor:pointer;transition:background .2s,border-color .2s;position:relative;overflow:hidden;border:1px solid transparent}
+  .niche-card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:2px;background:var(--accent);transform:scaleX(0);transform-origin:left;transition:transform .3s}
+  .niche-card:hover{background:var(--bg3);border-color:var(--border)}
+  .niche-card:hover::after{transform:scaleX(1)}
+  .niche-icon{width:44px;height:44px;background:var(--accent-glow);border:1px solid rgba(46,232,122,0.2);border-radius:var(--radius-sm);display:flex;align-items:center;justify-content:center;font-size:20px;margin-bottom:20px;color:var(--accent)}
+  .niche-card h3{font-size:17px;font-weight:600;margin-bottom:10px;color:var(--text)}
+  .niche-card p{font-size:14px;color:var(--text2);line-height:1.6}
+  .niche-card .niche-metric{display:flex;align-items:center;gap:8px;margin-top:20px;font-size:12px;color:var(--accent);font-family:'DM Mono',monospace}
+  .niche-metric::before{content:'↑';font-size:14px}
+
+  /* WHY */
+  .why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+  .why-card{background:var(--card);border:1px solid var(--border2);border-radius:var(--radius);padding:32px;transition:border-color .2s}
+  .why-card:hover{border-color:var(--border)}
+  .why-num{font-family:'DM Mono',monospace;font-size:11px;color:var(--text3);margin-bottom:16px;letter-spacing:.05em}
+  .why-card h3{font-size:16px;font-weight:600;margin-bottom:10px}
+  .why-card p{font-size:14px;color:var(--text2);line-height:1.6}
+  .why-tag{display:inline-block;font-size:11px;color:var(--accent);background:var(--accent-glow);padding:3px 10px;border-radius:100px;margin-top:12px}
+
+  /* PROCESS */
+  .process-bg{background:var(--bg2)}
+  .process-steps{display:grid;grid-template-columns:repeat(6,1fr);gap:0;position:relative}
+  .process-steps::before{content:'';position:absolute;top:30px;left:2%;right:2%;height:1px;background:linear-gradient(90deg,transparent,var(--accent-dim),var(--accent),var(--accent-dim),transparent);z-index:0}
+  .process-step{position:relative;z-index:1;padding:0 12px;text-align:center}
+  .step-circle{width:60px;height:60px;border-radius:50%;background:var(--card);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-family:'DM Mono',monospace;font-size:13px;font-weight:500;color:var(--accent);margin:0 auto 20px;transition:background .3s,border-color .3s}
+  .process-step:hover .step-circle{background:var(--accent-glow);border-color:var(--accent)}
+  .step-title{font-size:13px;font-weight:600;margin-bottom:6px;color:var(--text)}
+  .step-desc{font-size:12px;color:var(--text3);line-height:1.5}
+
+  /* CHANNELS */
+  .channels-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+  .channel-card{background:var(--card);border:1px solid var(--border2);border-radius:var(--radius);padding:24px;display:flex;align-items:flex-start;gap:14px;transition:border-color .2s,background .2s}
+  .channel-card:hover{border-color:var(--border);background:var(--bg3)}
+  .channel-ic{width:40px;height:40px;min-width:40px;background:var(--accent-glow);border-radius:var(--radius-sm);display:flex;align-items:center;justify-content:center;font-size:18px;color:var(--accent)}
+  .channel-card h4{font-size:14px;font-weight:600;margin-bottom:4px}
+  .channel-card p{font-size:13px;color:var(--text2);line-height:1.5}
+
+  /* CASES */
+  .cases-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+  .case-card{background:var(--card);border:1px solid var(--border2);border-radius:var(--radius);overflow:hidden;transition:border-color .2s}
+  .case-card:hover{border-color:var(--border)}
+  .case-header{padding:28px 28px 20px;border-bottom:1px solid var(--border2)}
+  .case-tag{display:inline-block;font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);background:var(--accent-glow);padding:4px 12px;border-radius:100px;margin-bottom:12px;font-weight:500}
+  .case-card h3{font-size:18px;font-weight:700;margin-bottom:4px}
+  .case-card .case-sub{font-size:13px;color:var(--text2)}
+  .case-metrics{padding:24px 28px;display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .case-metric{text-align:center}
+  .case-metric .val{font-size:28px;font-weight:700;color:var(--accent);font-family:'DM Mono',monospace;line-height:1}
+  .case-metric .lab{font-size:12px;color:var(--text2);margin-top:4px;line-height:1.4}
+  .case-bar{padding:0 28px 28px}
+  .bar-label{font-size:12px;color:var(--text3);margin-bottom:8px}
+  .bar-track{height:4px;background:var(--border2);border-radius:2px;overflow:hidden}
+  .bar-fill{height:100%;background:linear-gradient(90deg,var(--accent-dim),var(--accent));border-radius:2px;transform:scaleX(0);transform-origin:left;transition:transform 1.2s cubic-bezier(.22,.68,0,1.2)}
+  .bar-fill.animate{transform:scaleX(1)}
+
+  /* CALCULATOR */
+  .calc-wrap{background:var(--bg2)}
+  .calc-inner{max-width:800px;margin:0 auto}
+  .calc-card{background:var(--card);border:1px solid var(--border2);border-radius:16px;padding:48px;position:relative;overflow:hidden}
+  .calc-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--accent),transparent)}
+  .calc-fields{display:grid;grid-template-columns:1fr 1fr 1fr;gap:20px;margin-bottom:32px}
+  .field-group label{display:block;font-size:13px;font-weight:500;color:var(--text2);margin-bottom:8px}
+  .field-group select,.field-group input{width:100%;background:var(--bg3);border:1px solid var(--border2);border-radius:var(--radius-sm);padding:12px 14px;color:var(--text);font-size:14px;font-family:'Inter',sans-serif;outline:none;transition:border-color .2s;appearance:none;-webkit-appearance:none}
+  .field-group select:focus,.field-group input:focus{border-color:rgba(46,232,122,0.4)}
+  .field-group select option{background:var(--bg3);color:var(--text)}
+  .calc-btn{width:100%;background:var(--accent);color:#080C09;font-size:16px;font-weight:700;padding:16px;border-radius:var(--radius-sm);border:none;cursor:pointer;transition:opacity .2s;font-family:'Inter',sans-serif}
+  .calc-btn:hover{opacity:.85}
+  .calc-result{display:none;margin-top:32px;padding-top:32px;border-top:1px solid var(--border2)}
+  .calc-result.show{display:block}
+  .result-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-bottom:24px}
+  .result-item{background:var(--bg2);border-radius:var(--radius-sm);padding:20px;text-align:center}
+  .result-item .rv{font-size:28px;font-weight:700;color:var(--accent);font-family:'DM Mono',monospace}
+  .result-item .rl{font-size:12px;color:var(--text2);margin-top:6px}
+  .result-form{display:grid;grid-template-columns:1fr 1fr auto;gap:12px;align-items:end}
+  .result-form input{background:var(--bg3);border:1px solid var(--border2);border-radius:var(--radius-sm);padding:12px 14px;color:var(--text);font-size:14px;font-family:'Inter',sans-serif;outline:none}
+  .result-form input:focus{border-color:rgba(46,232,122,.4)}
+
+  /* COMPARE TABLE */
+  .compare-wrap{background:var(--bg2)}
+  .compare-table{width:100%;border-collapse:collapse;max-width:860px;margin:0 auto}
+  .compare-table th{padding:16px 24px;text-align:left;font-size:14px;font-weight:600;color:var(--text2);border-bottom:1px solid var(--border2)}
+  .compare-table th:nth-child(2){color:var(--accent)}
+  .compare-table td{padding:18px 24px;border-bottom:1px solid var(--border2);font-size:15px}
+  .compare-table tr:last-child td{border-bottom:none}
+  .compare-table td:first-child{color:var(--text2)}
+  .compare-table td:nth-child(2){font-weight:600}
+  .check{color:var(--accent);font-size:18px}
+  .cross{color:var(--text3)}
+  .compare-table tr:hover td{background:rgba(46,232,122,0.03)}
+
+  /* TESTIMONIALS */
+  .testimonials-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+  .testi-card{background:var(--card);border:1px solid var(--border2);border-radius:var(--radius);padding:32px;transition:border-color .2s;position:relative}
+  .testi-card:hover{border-color:var(--border)}
+  .testi-result{font-size:22px;font-weight:700;color:var(--accent);margin-bottom:16px;font-family:'DM Mono',monospace}
+  .testi-text{font-size:14px;color:var(--text2);line-height:1.7;margin-bottom:24px}
+  .testi-author{display:flex;align-items:center;gap:14px}
+  .testi-avatar{width:44px;height:44px;border-radius:50%;background:var(--accent-glow);border:1px solid rgba(46,232,122,.2);display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:700;color:var(--accent)}
+  .testi-name{font-size:14px;font-weight:600}
+  .testi-company{font-size:12px;color:var(--text3);margin-top:2px}
+  .testi-quote{position:absolute;top:28px;right:28px;font-size:40px;line-height:1;color:var(--accent-dim);opacity:.3;font-family:Georgia,serif}
+
+  /* FAQ */
+  .faq-bg{background:var(--bg2)}
+  .faq-list{max-width:740px;margin:0 auto}
+  .faq-item{border-bottom:1px solid var(--border2)}
+  .faq-q{width:100%;background:none;border:none;color:var(--text);font-size:16px;font-weight:500;text-align:left;padding:24px 0;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;font-family:'Inter',sans-serif;transition:color .2s}
+  .faq-q:hover{color:var(--accent)}
+  .faq-icon{width:24px;height:24px;min-width:24px;border:1px solid var(--border2);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:16px;color:var(--text2);transition:transform .3s,background .2s,border-color .2s}
+  .faq-item.open .faq-icon{transform:rotate(45deg);background:var(--accent-glow);border-color:var(--accent);color:var(--accent)}
+  .faq-a{display:none;font-size:15px;color:var(--text2);line-height:1.7;padding-bottom:24px}
+  .faq-item.open .faq-a{display:block}
+
+  /* FINAL CTA */
+  .final-cta{background:var(--bg3);border-top:1px solid var(--border);text-align:center}
+  .cta-inner{max-width:640px;margin:0 auto}
+  .final-cta h2{font-size:clamp(28px,3.5vw,48px);margin-bottom:16px;letter-spacing:-1px}
+  .final-cta p{font-size:17px;color:var(--text2);margin-bottom:48px;line-height:1.7}
+  .cta-form{display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
+  .cta-form input,.cta-form select{background:var(--card);border:1px solid var(--border2);border-radius:var(--radius-sm);padding:14px 18px;color:var(--text);font-size:15px;font-family:'Inter',sans-serif;outline:none;flex:1;min-width:160px;max-width:200px;transition:border-color .2s;-webkit-appearance:none}
+  .cta-form input:focus,.cta-form select:focus{border-color:rgba(46,232,122,.4)}
+  .cta-form select option{background:var(--card)}
+  .cta-note{font-size:13px;color:var(--text3);margin-top:16px}
+
+  /* FOOTER */
+  footer{padding:48px 5%;border-top:1px solid var(--border2);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:20px}
+  .footer-logo{font-size:18px;font-weight:700;letter-spacing:-.5px}
+  .footer-logo span{color:var(--accent)}
+  footer p{font-size:13px;color:var(--text3)}
+  .footer-links{display:flex;gap:24px}
+  .footer-links a{font-size:13px;color:var(--text3);transition:color .2s}
+  .footer-links a:hover{color:var(--text)}
+
+  /* ANIMATIONS */
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+  @keyframes float{0%,100%{transform:translateX(-50%) translateY(0)}50%{transform:translateX(-50%) translateY(-6px)}}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+  .fade-up{opacity:0;transform:translateY(30px);transition:opacity .6s ease,transform .6s ease}
+  .fade-up.visible{opacity:1;transform:translateY(0)}
+
+  @media(max-width:1024px){
+    .hero{grid-template-columns:1fr;padding-top:100px}
+    .hero-visual{display:none}
+    .stats-grid{grid-template-columns:repeat(2,1fr)}
+    .niches-grid{grid-template-columns:repeat(2,1fr)}
+    .why-grid{grid-template-columns:repeat(2,1fr)}
+    .process-steps{grid-template-columns:repeat(3,1fr)}
+    .process-steps::before{display:none}
+    .channels-grid{grid-template-columns:repeat(2,1fr)}
+    .cases-grid{grid-template-columns:1fr 1fr}
+    .testimonials-grid{grid-template-columns:1fr}
+  }
+  @media(max-width:640px){
+    .nav-links{display:none}
+    .stats-grid{grid-template-columns:1fr 1fr}
+    .niches-grid{grid-template-columns:1fr}
+    .why-grid{grid-template-columns:1fr}
+    .process-steps{grid-template-columns:repeat(2,1fr)}
+    .channels-grid{grid-template-columns:1fr}
+    .cases-grid{grid-template-columns:1fr}
+    .calc-fields{grid-template-columns:1fr}
+    .result-grid{grid-template-columns:1fr}
+    .result-form{grid-template-columns:1fr}
+    .cta-form{flex-direction:column;align-items:stretch}
+    .cta-form input,.cta-form select{max-width:100%}
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">convert<span>ix</span></div>
+  <div class="nav-links">
+    <a href="#niches">Ниши</a>
+    <a href="#process">Как работает</a>
+    <a href="#cases">Кейсы</a>
+    <a href="#calc">Калькулятор</a>
+    <a href="#faq">FAQ</a>
+  </div>
+  <a href="#cta" class="nav-cta">Получить лиды</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-content fade-up">
+    <div class="hero-label">Лидогенерация с оплатой за результат</div>
+    <h1>Получайте поток <em>целевых клиентов</em> без переплаты за рекламу</h1>
+    <p class="hero-sub">Запускаем лидогенерацию под ключ. От поиска клиента до передачи заявки вашему отделу продаж.</p>
+    <div class="hero-btns">
+      <a href="#cta" class="btn-primary">Получить лиды →</a>
+      <a href="#calc" class="btn-secondary">Рассчитать стоимость лида</a>
+    </div>
+    <div class="hero-trust">
+      <div class="trust-dots">
+        <div class="trust-dot">Я</div>
+        <div class="trust-dot">TG</div>
+        <div class="trust-dot">AI</div>
+      </div>
+      <span>Яндекс Директ, Telegram Ads, AI-обзвон и ещё 4 канала</span>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="funnel-wrap" id="funnelWrap">
+      <div class="funnel-stage" style="top:0;width:100%">
+        <div class="fstage active" data-step="0" style="width:280px"><span class="fstage-icon">📡</span>Трафик</div>
+        <div class="fline"></div>
+      </div>
+      <div class="funnel-stage" style="top:100px;width:100%">
+        <div class="fstage" data-step="1" style="width:248px"><span class="fstage-icon">🤖</span>AI-обработка</div>
+        <div class="fline"></div>
+      </div>
+      <div class="funnel-stage" style="top:200px;width:100%">
+        <div class="fstage" data-step="2" style="width:216px"><span class="fstage-icon">📞</span>Колл-центр</div>
+        <div class="fline"></div>
+      </div>
+      <div class="funnel-stage" style="top:300px;width:100%">
+        <div class="fstage" data-step="3" style="width:184px"><span class="fstage-icon">✅</span>Квалификация</div>
+        <div class="fline"></div>
+      </div>
+      <div class="funnel-stage" style="top:395px;width:100%">
+        <div class="fstage" data-step="4" style="width:152px"><span class="fstage-icon">💼</span>Готовый лид</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats">
+  <div class="stats-grid">
+    <div class="stat-item fade-up">
+      <div class="stat-num" data-target="10000">0</div>
+      <div class="stat-label">Лидов ежемесячно</div>
+    </div>
+    <div class="stat-item fade-up">
+      <div class="stat-num" data-prefix=">" data-target="10" data-suffix=" млн ₽">0</div>
+      <div class="stat-label">Рекламных бюджетов под управлением</div>
+    </div>
+    <div class="stat-item fade-up">
+      <div class="stat-num" data-target="50" data-suffix="%">0</div>
+      <div class="stat-label">Снижение стоимости лида в среднем</div>
+    </div>
+    <div class="stat-item fade-up">
+      <div class="stat-num" data-target="2" data-suffix="×">0</div>
+      <div class="stat-label">Рост конверсии за счёт AI-квалификации</div>
+    </div>
+  </div>
+</div>
+
+<!-- NICHES -->
+<section id="niches">
+  <div class="section-header fade-up">
+    <div class="section-eyebrow">Отраслевые решения</div>
+    <h2>Лидогенерация для<br>вашей ниши</h2>
+    <p class="section-sub">Глубокая экспертиза в каждом сегменте. Не универсальный подрядчик — а специалист в вашей отрасли.</p>
+  </div>
+  <div class="niches-grid">
+    <div class="niche-card fade-up">
+      <div class="niche-icon">⚖️</div>
+      <h3>Банкротство физических лиц</h3>
+      <p>Целевые обращения от людей с долгами от 300 000 ₽, готовых начать процедуру банкротства.</p>
+      <div class="niche-metric">До 40% снижение CPL</div>
+    </div>
+    <div class="niche-card fade-up">
+      <div class="niche-icon">🏢</div>
+      <h3>Недвижимость</h3>
+      <p>Лиды на новостройки, вторичное жильё и загородную недвижимость. Покупатели с подтверждённым бюджетом.</p>
+      <div class="niche-metric">От 800 ₽ за обращение</div>
+    </div>
+    <div class="niche-card fade-up">
+      <div class="niche-icon">🚗</div>
+      <h3>Автосалоны</h3>
+      <p>Заявки на новые и подержанные автомобили. Квалифицированные покупатели с конкретной моделью.</p>
+      <div class="niche-metric">Конверсия до 18%</div>
+    </div>
+    <div class="niche-card fade-up">
+      <div class="niche-icon">🎓</div>
+      <h3>Автошколы</h3>
+      <p>Стабильный поток записей на обучение круглый год. Региональный охват без сезонных провалов.</p>
+      <div class="niche-metric">Поток круглый год</div>
+    </div>
+    <div class="niche-card fade-up">
+      <div class="niche-icon">🦷</div>
+      <h3>Стоматологии</h3>
+      <p>Первичные пациенты на высокомаржинальные услуги: имплантация, протезирование, ортодонтия.</p>
+      <div class="niche-metric">LTV от 50 000 ₽</div>
+    </div>
+    <div class="niche-card fade-up">
+      <div class="niche-icon">⚙️</div>
+      <h3>Производственное оборудование</h3>
+      <p>Квалифицированные B2B-лиды с бюджетом. Директора производств и технические специалисты.</p>
+      <div class="niche-metric">B2B-сделки от 1 млн ₽</div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section style="background:var(--bg2);border-top:1px solid var(--border2);border-bottom:1px solid var(--border2)">
+  <div class="section-header fade-up">
+    <div class="section-eyebrow">Преимущества</div>
+    <h2>Мы приводим готовых клиентов,<br>а не просто запускаем рекламу</h2>
+  </div>
+  <div class="why-grid">
+    <div class="why-card fade-up">
+      <div class="why-num">01 —</div>
+      <h3>Собственный колл-центр</h3>
+      <p>Каждая заявка проходит живую проверку. Передаём только тех, кто реально готов к покупке.</p>
+      <span class="why-tag">Качество гарантировано</span>
+    </div>
+    <div class="why-card fade-up">
+      <div class="why-num">02 —</div>
+      <h3>AI-квалификация</h3>
+      <p>Автоматическая обработка обращений в режиме 24/7. Скорость ответа — до 30 секунд.</p>
+      <span class="why-tag">Работает без выходных</span>
+    </div>
+    <div class="why-card fade-up">
+      <div class="why-num">03 —</div>
+      <h3>Сквозная аналитика</h3>
+      <p>Видите каждый этап воронки в реальном времени. Стоимость лида, источник, конверсия.</p>
+      <span class="why-tag">Полная прозрачность</span>
+    </div>
+    <div class="why-card fade-up">
+      <div class="why-num">04 —</div>
+      <h3>Оплата за результат</h3>
+      <p>Фокус на вашей окупаемости, а не на отчётах. Платите только за квалифицированные обращения.</p>
+      <span class="why-tag">Финансовый контроль</span>
+    </div>
+    <div class="why-card fade-up">
+      <div class="why-num">05 —</div>
+      <h3>Глубокая экспертиза</h3>
+      <p>Специализируемся на сложных конкурентных нишах с высокой стоимостью клиента.</p>
+      <span class="why-tag">Опыт в нише</span>
+    </div>
+    <div class="why-card fade-up">
+      <div class="why-num">06 —</div>
+      <h3>Масштабирование</h3>
+      <p>Увеличиваем объём лидов без потери качества. Системный подход, не разовые акции.</p>
+      <span class="why-tag">Рост без потолка</span>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process" class="process-bg">
+  <div class="section-header fade-up" style="text-align:center">
+    <div class="section-eyebrow">Как это работает</div>
+    <h2>Система лидогенерации<br>под ключ</h2>
+    <p class="section-sub" style="margin:0 auto">От первой консультации до потока квалифицированных заявок — 6 понятных шагов.</p>
+  </div>
+  <div class="process-steps fade-up">
+    <div class="process-step">
+      <div class="step-circle">01</div>
+      <div class="step-title">Изучаем нишу</div>
+      <div class="step-desc">Анализ рынка, аудитории, сезонности и объёма спроса</div>
+    </div>
+    <div class="process-step">
+      <div class="step-circle">02</div>
+      <div class="step-title">Анализ конкурентов</div>
+      <div class="step-desc">Изучаем воронки и рекламные стратегии игроков рынка</div>
+    </div>
+    <div class="process-step">
+      <div class="step-circle">03</div>
+      <div class="step-title">Запуск каналов</div>
+      <div class="step-desc">Яндекс Директ, Telegram Ads, SEO, AI-обзвон одновременно</div>
+    </div>
+    <div class="process-step">
+      <div class="step-circle">04</div>
+      <div class="step-title">Квалификация</div>
+      <div class="step-desc">AI + колл-центр фильтруют нецелевые обращения</div>
+    </div>
+    <div class="process-step">
+      <div class="step-circle">05</div>
+      <div class="step-title">Передача лидов</div>
+      <div class="step-desc">Готовые заявки попадают в вашу CRM или на почту</div>
+    </div>
+    <div class="process-step">
+      <div class="step-circle">06</div>
+      <div class="step-title">Масштабирование</div>
+      <div class="step-desc">Увеличиваем объём на основе аналитики и A/B-тестов</div>
+    </div>
+  </div>
+</section>
+
+<!-- CHANNELS -->
+<section style="background:var(--bg)">
+  <div class="section-header fade-up">
+    <div class="section-eyebrow">Каналы лидогенерации</div>
+    <h2>7 источников целевого трафика</h2>
+    <p class="section-sub">Используем все эффективные каналы в связке для максимального охвата аудитории.</p>
+  </div>
+  <div class="channels-grid">
+    <div class="channel-card fade-up">
+      <div class="channel-ic">🎯</div>
+      <div>
+        <h4>Контекстная реклама</h4>
+        <p>Яндекс Директ. Горячий спрос — люди ищут прямо сейчас.</p>
+      </div>
+    </div>
+    <div class="channel-card fade-up">
+      <div class="channel-ic">✈️</div>
+      <div>
+        <h4>Telegram Ads</h4>
+        <p>Таргетированная реклама в Telegram с точным попаданием в аудиторию.</p>
+      </div>
+    </div>
+    <div class="channel-card fade-up">
+      <div class="channel-ic">🤖</div>
+      <div>
+        <h4>AI-обзвон</h4>
+        <p>Автоматические звонки с распознаванием речи и квалификацией 24/7.</p>
+      </div>
+    </div>
+    <div class="channel-card fade-up">
+      <div class="channel-ic">📱</div>
+      <div>
+        <h4>SMS-маркетинг</h4>
+        <p>Персонализированные SMS по базе с высокой читаемостью.</p>
+      </div>
+    </div>
+    <div class="channel-card fade-up">
+      <div class="channel-ic">📞</div>
+      <div>
+        <h4>Колл-центр</h4>
+        <p>Живые операторы для обработки и квалификации входящих обращений.</p>
+      </div>
+    </div>
+    <div class="channel-card fade-up">
+      <div class="channel-ic">🔄</div>
+      <div>
+        <h4>Ретаргетинг</h4>
+        <p>Возвращаем тех, кто уже интересовался. Снижает итоговый CPL.</p>
+      </div>
+    </div>
+    <div class="channel-card fade-up">
+      <div class="channel-ic">🔍</div>
+      <div>
+        <h4>SEO</h4>
+        <p>Органический трафик из поиска для снижения зависимости от платной рекламы.</p>
+      </div>
+    </div>
+    <div class="channel-card fade-up" style="background:var(--accent-glow);border-color:rgba(46,232,122,0.2)">
+      <div class="channel-ic" style="background:rgba(46,232,122,0.2)">⚡</div>
+      <div>
+        <h4 style="color:var(--accent)">Все каналы в связке</h4>
+        <p style="color:var(--text2)">Синергия каналов даёт результат в 2–3 раза выше, чем работа каждого по отдельности.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CASES -->
+<section id="cases" style="background:var(--bg2);border-top:1px solid var(--border2)">
+  <div class="section-header fade-up">
+    <div class="section-eyebrow">Кейсы</div>
+    <h2>Реальные результаты<br>в цифрах</h2>
+    <p class="section-sub">Измеримые показатели по каждому проекту. Без размытых формулировок.</p>
+  </div>
+  <div class="cases-grid">
+    <div class="case-card fade-up">
+      <div class="case-header">
+        <div class="case-tag">Банкротство физлиц</div>
+        <h3>Юридическая компания</h3>
+        <div class="case-sub">Московский регион · 6 месяцев работы</div>
+      </div>
+      <div class="case-metrics">
+        <div class="case-metric">
+          <div class="val">+247%</div>
+          <div class="lab">Рост количества лидов</div>
+        </div>
+        <div class="case-metric">
+          <div class="val">−43%</div>
+          <div class="lab">Снижение стоимости лида</div>
+        </div>
+        <div class="case-metric">
+          <div class="val">+38%</div>
+          <div class="lab">Конверсия в договор</div>
+        </div>
+        <div class="case-metric">
+          <div class="val">1 500 ₽</div>
+          <div class="lab">Финальный CPL</div>
+        </div>
+      </div>
+      <div class="case-bar">
+        <div class="bar-label">Рост лидов за период</div>
+        <div class="bar-track"><div class="bar-fill" style="width:85%"></div></div>
+      </div>
+    </div>
+    <div class="case-card fade-up">
+      <div class="case-header">
+        <div class="case-tag">Недвижимость</div>
+        <h3>Агентство новостроек</h3>
+        <div class="case-sub">Санкт-Петербург · 4 месяца работы</div>
+      </div>
+      <div class="case-metrics">
+        <div class="case-metric">
+          <div class="val">1 840</div>
+          <div class="lab">Квалифицированных заявок</div>
+        </div>
+        <div class="case-metric">
+          <div class="val">2 400 ₽</div>
+          <div class="lab">Стоимость обращения</div>
+        </div>
+        <div class="case-metric">
+          <div class="val">×2.4</div>
+          <div class="lab">ROI по лидогенерации</div>
+        </div>
+        <div class="case-metric">
+          <div class="val">14%</div>
+          <div class="lab">Конверсия в сделку</div>
+        </div>
+      </div>
+      <div class="case-bar">
+        <div class="bar-label">Объём заявок к плану</div>
+        <div class="bar-track"><div class="bar-fill" style="width:92%"></div></div>
+      </div>
+    </div>
+    <div class="case-card fade-up">
+      <div class="case-header">
+        <div class="case-tag">Автосалон</div>
+        <h3>Дилерский центр</h3>
+        <div class="case-sub">Екатеринбург · 3 месяца работы</div>
+      </div>
+      <div class="case-metrics">
+        <div class="case-metric">
+          <div class="val">+310%</div>
+          <div class="lab">Рост обращений</div>
+        </div>
+        <div class="case-metric">
+          <div class="val">1 650 ₽</div>
+          <div class="lab">Стоимость целевого лида</div>
+        </div>
+        <div class="case-metric">
+          <div class="val">18%</div>
+          <div class="lab">Конверсия в тест-драйв</div>
+        </div>
+        <div class="case-metric">
+          <div class="val">−52%</div>
+          <div class="lab">Снижение цены клиента</div>
+        </div>
+      </div>
+      <div class="case-bar">
+        <div class="bar-label">Выполнение KPI по лидам</div>
+        <div class="bar-track"><div class="bar-fill" style="width:78%"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CALCULATOR -->
+<section id="calc" class="calc-wrap">
+  <div class="section-header fade-up" style="text-align:center">
+    <div class="section-eyebrow">Калькулятор лидов</div>
+    <h2>Рассчитайте стоимость<br>привлечения клиентов</h2>
+    <p class="section-sub" style="margin:0 auto">Введите параметры вашего бизнеса и получите прогноз по заявкам и бюджету.</p>
+  </div>
+  <div class="calc-inner fade-up">
+    <div class="calc-card">
+      <div class="calc-fields">
+        <div class="field-group">
+          <label>Ниша</label>
+          <select id="calcNiche">
+            <option value="">Выберите нишу</option>
+            <option value="bfl">Банкротство физлиц</option>
+            <option value="realty">Недвижимость</option>
+            <option value="auto">Автосалон</option>
+            <option value="school">Автошкола</option>
+            <option value="dental">Стоматология</option>
+            <option value="b2b">Производственное оборудование</option>
+            <option value="other">Другая ниша</option>
+          </select>
+        </div>
+        <div class="field-group">
+          <label>Регион</label>
+          <select id="calcRegion">
+            <option value="msk">Москва</option>
+            <option value="spb">Санкт-Петербург</option>
+            <option value="mil">Город-миллионник</option>
+            <option value="reg">Региональный город</option>
+          </select>
+        </div>
+        <div class="field-group">
+          <label>Нужно лидов в месяц</label>
+          <input type="number" id="calcCount" placeholder="Например: 100" min="10" max="10000">
+        </div>
+      </div>
+      <button class="calc-btn" onclick="calcResult()">Рассчитать →</button>
+      <div class="calc-result" id="calcResult">
+        <div class="result-grid">
+          <div class="result-item">
+            <div class="rv" id="rLeads">—</div>
+            <div class="rl">Прогноз лидов в месяц</div>
+          </div>
+          <div class="result-item">
+            <div class="rv" id="rCpl">—</div>
+            <div class="rl">Ориентировочный CPL</div>
+          </div>
+          <div class="result-item">
+            <div class="rv" id="rChannel">—</div>
+            <div class="rl">Основной канал</div>
+          </div>
+        </div>
+        <p style="font-size:13px;color:var(--text3);margin-bottom:20px">Точный расчёт — после аудита вашего бизнеса. Оставьте контакт и мы перезвоним в течение 15 минут.</p>
+        <div class="result-form">
+          <input type="text" placeholder="Ваше имя" id="rfName">
+          <input type="tel" placeholder="Телефон" id="rfPhone">
+          <button class="btn-primary" onclick="submitCalc()">Получить расчёт →</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPARE -->
+<section class="compare-wrap">
+  <div class="section-header fade-up" style="text-align:center">
+    <div class="section-eyebrow">Сравнение</div>
+    <h2>Convertix vs<br>обычное рекламное агентство</h2>
+  </div>
+  <div style="overflow-x:auto" class="fade-up">
+    <table class="compare-table">
+      <thead>
+        <tr>
+          <th>Параметр</th>
+          <th>Convertix</th>
+          <th>Обычное агентство</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Работа с оплатой за результат</td><td><span class="check">✓ Да</span></td><td><span class="cross">Нет</span></td></tr>
+        <tr><td>Собственный колл-центр</td><td><span class="check">✓ Да</span></td><td><span class="cross">Редко</span></td></tr>
+        <tr><td>AI-квалификация лидов</td><td><span class="check">✓ Да</span></td><td><span class="cross">Нет</span></td></tr>
+        <tr><td>Сквозная аналитика воронки</td><td><span class="check">✓ Да</span></td><td><span class="cross">Частично</span></td></tr>
+        <tr><td>Передача готовых квалифицированных лидов</td><td><span class="check">✓ Да</span></td><td><span class="cross">Нет</span></td></tr>
+        <tr><td>Гарантия объёма по договору</td><td><span class="check">✓ Да</span></td><td><span class="cross">Нет</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section style="background:var(--bg2);border-top:1px solid var(--border2)">
+  <div class="section-header fade-up">
+    <div class="section-eyebrow">Отзывы клиентов</div>
+    <h2>Говорят результаты,<br>а не слова</h2>
+  </div>
+  <div class="testimonials-grid">
+    <div class="testi-card fade-up">
+      <div class="testi-quote">"</div>
+      <div class="testi-result">247 заявок за месяц</div>
+      <div class="testi-text">Работаем с Convertix по банкротству физлиц. До них тратили втрое больше на рекламу и получали нецелевые обращения. Теперь каждый лид прошёл квалификацию — менеджеры работают только с горячими клиентами.</div>
+      <div class="testi-author">
+        <div class="testi-avatar">АК</div>
+        <div>
+          <div class="testi-name">Алексей К.</div>
+          <div class="testi-company">Директор юридической компании, Москва</div>
+        </div>
+      </div>
+    </div>
+    <div class="testi-card fade-up">
+      <div class="testi-quote">"</div>
+      <div class="testi-result">Снижение CPL на 38%</div>
+      <div class="testi-text">Подключились к нам в сложный период, когда стоимость лида в контексте выросла. Запустили параллельно несколько каналов и через 6 недель мы вышли на показатели лучше, чем когда-либо.</div>
+      <div class="testi-author">
+        <div class="testi-avatar">МП</div>
+        <div>
+          <div class="testi-name">Марина П.</div>
+          <div class="testi-company">Маркетолог, агентство недвижимости, Санкт-Петербург</div>
+        </div>
+      </div>
+    </div>
+    <div class="testi-card fade-up">
+      <div class="testi-quote">"</div>
+      <div class="testi-result">×3 рост заявок</div>
+      <div class="testi-text">Наконец нашли подрядчика, который думает об окупаемости так же, как мы. Не просто сливают бюджет на клики — реально заинтересованы в том, чтобы наш бизнес рос. Рекомендую всем автодилерам.</div>
+      <div class="testi-author">
+        <div class="testi-avatar">ДС</div>
+        <div>
+          <div class="testi-name">Дмитрий С.</div>
+          <div class="testi-company">Руководитель отдела продаж, дилерский центр, Екатеринбург</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="faq-bg">
+  <div class="section-header fade-up" style="text-align:center">
+    <div class="section-eyebrow">FAQ</div>
+    <h2>Частые вопросы</h2>
+  </div>
+  <div class="faq-list fade-up" id="faqList">
+    <div class="faq-item">
+      <button class="faq-q">Как рассчитывается стоимость лида? <span class="faq-icon">+</span></button>
+      <div class="faq-a">Стоимость лида формируется исходя из ниши, региона, требуемого объёма и уровня квалификации. Мы фиксируем CPL в договоре — вы заранее знаете, сколько платите за каждое обращение. После аудита вашего бизнеса делаем конкретный расчёт.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q">Какие гарантии по объёму лидов? <span class="faq-icon">+</span></button>
+      <div class="faq-a">Гарантированный объём лидов прописывается в договоре. Если за расчётный период план не выполнен — компенсируем разницу в следующем периоде или пересматриваем условия. Работаем на результат, а не на обещания.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q">Можно ли работать только по одному региону? <span class="faq-icon">+</span></button>
+      <div class="faq-a">Да, мы работаем как по одному городу или региону, так и по всей России. Локальные кампании часто дают более низкий CPL за счёт меньшей конкуренции в аукционе. Уточните ваш регион — сделаем предварительную оценку объёма спроса.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q">Как происходит передача лидов? <span class="faq-icon">+</span></button>
+      <div class="faq-a">Лиды передаются в режиме реального времени через интеграцию с вашей CRM, по email, в Telegram или через webhook. Каждый лид содержит имя, телефон, источник обращения и результат квалификации. Настраиваем под вашу инфраструктуру.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q">Есть ли минимальный объём или бюджет? <span class="faq-icon">+</span></button>
+      <div class="faq-a">Минимальный объём — от 50 лидов в месяц. Это связано с тем, что нам нужна достаточная выборка для оптимизации воронки. Рекламный бюджет обсуждается индивидуально в зависимости от ниши и региона.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q">Что значит «квалифицированный лид»? <span class="faq-icon">+</span></button>
+      <div class="faq-a">Квалифицированный лид — человек, который подтвердил интерес к услуге, соответствует вашим критериям целевой аудитории и готов к контакту с вашим менеджером. Критерии квалификации согласуются с вами до начала работы.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q">Сколько времени занимает запуск? <span class="faq-icon">+</span></button>
+      <div class="faq-a">Стандартный срок запуска — 5–10 рабочих дней с момента подписания договора. В это время мы изучаем вашу нишу, готовим рекламные материалы, настраиваем каналы и тестируем квалификационные скрипты.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q">Как работает AI-квалификация? <span class="faq-icon">+</span></button>
+      <div class="faq-a">AI-система автоматически обрабатывает входящие обращения: отвечает на первичные вопросы, уточняет потребность и соответствие критериям, собирает контактные данные. Работает 24/7, отвечает в течение 30 секунд. Подозрительные заявки отфильтровываются до передачи вам.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q">Вы работаете только с определёнными нишами? <span class="faq-icon">+</span></button>
+      <div class="faq-a">Мы специализируемся на нишах с высокой стоимостью клиента: банкротство, недвижимость, автосалоны, стоматологии, B2B-продажи оборудования и другие. Если ваша ниша не в списке — свяжитесь с нами, мы оценим возможность запуска.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q">Предоставляете ли вы отчётность? <span class="faq-icon">+</span></button>
+      <div class="faq-a">Да. По каждому проекту вы получаете подробную отчётность: общее количество переданных лидов, записи разговоров колл-центра с каждым клиентом, источники обращений и динамику по периодам. Данные передаются удобным для вас способом — на email, в Telegram или через интеграцию.</div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section id="cta" class="final-cta">
+  <div class="cta-inner fade-up">
+    <div class="section-eyebrow" style="text-align:center;margin-bottom:16px">Начать работу</div>
+    <h2>Узнайте, сколько клиентов<br>мы можем привести вашему бизнесу</h2>
+    <p>Оставьте заявку — обсудим вашу нишу и предложим конкретные цифры по объёму и стоимости лидов.</p>
+    <div class="cta-form">
+      <input type="text" placeholder="Ваше имя" id="ctaName">
+      <input type="tel" placeholder="Телефон" id="ctaPhone">
+      <select id="ctaNiche" style="min-width:160px;max-width:200px;flex:1">
+        <option value="">Ниша</option>
+        <option>Банкротство физлиц</option>
+        <option>Недвижимость</option>
+        <option>Автосалон</option>
+        <option>Автошкола</option>
+        <option>Стоматология</option>
+        <option>Оборудование B2B</option>
+        <option>Другая</option>
+      </select>
+      <button class="btn-primary" onclick="submitCta()">Получить лиды →</button>
+    </div>
+    <p class="cta-note">Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности. Перезвоним в течение 15 минут.</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">convert<span>ix</span></div>
+  <p>© 2025 ИП Минсафин Илнар Наилович. Лидогенерация с оплатой за результат</p>
+  <div class="footer-links">
+    <a href="#" onclick="openModal('privacy');return false;">Политика конфиденциальности</a>
+    <a href="#" onclick="openModal('offer');return false;">Договор оферты</a>
+    <a href="mailto:hello@convertix.ru">hello@convertix.ru</a>
+  </div>
+</footer>
+
+<!-- MODAL OVERLAY -->
+<div id="modalOverlay" style="display:none;position:fixed;inset:0;z-index:999;background:rgba(0,0,0,0.8);backdrop-filter:blur(6px);overflow-y:auto;padding:40px 5%" onclick="if(event.target===this)closeModal()">
+  <div style="max-width:760px;margin:0 auto;background:#0D130E;border:1px solid rgba(46,232,122,0.15);border-radius:16px;padding:48px;position:relative">
+    <button onclick="closeModal()" style="position:absolute;top:20px;right:20px;width:32px;height:32px;border-radius:50%;background:rgba(46,232,122,0.1);border:1px solid rgba(46,232,122,0.3);color:#2EE87A;font-size:18px;cursor:pointer;display:flex;align-items:center;justify-content:center;font-family:sans-serif;line-height:1">×</button>
+    <div id="modalContent"></div>
+  </div>
+</div>
+
+<script>
+const PRIVACY_HTML = `
+<div style="font-family:'Inter',sans-serif;color:#F0F4F1">
+  <p style="font-size:12px;color:#4A5E4F;margin-bottom:8px;text-transform:uppercase;letter-spacing:.08em">Политика конфиденциальности</p>
+  <h2 style="font-size:26px;font-weight:700;letter-spacing:-0.5px;margin-bottom:8px">Политика в отношении обработки персональных данных</h2>
+  <p style="font-size:13px;color:#4A5E4F;margin-bottom:32px">Редакция от 01.01.2025</p>
+
+  <p style="font-size:15px;color:#8A9B8E;line-height:1.7;margin-bottom:24px">Настоящая Политика конфиденциальности определяет порядок обработки и защиты персональных данных пользователей сайта convertix.ru.</p>
+
+  <h3 style="font-size:16px;font-weight:600;margin-bottom:10px;color:#2EE87A">1. Оператор персональных данных</h3>
+  <p style="font-size:14px;color:#8A9B8E;line-height:1.7;margin-bottom:8px">Индивидуальный предприниматель Минсафин Илнар Наилович</p>
+  <p style="font-size:14px;color:#8A9B8E;line-height:1.7;margin-bottom:8px">ИНН: 631906126377</p>
+  <p style="font-size:14px;color:#8A9B8E;line-height:1.7;margin-bottom:8px">ОГРНИП: 318631300103654</p>
+  <p style="font-size:14px;color:#8A9B8E;line-height:1.7;margin-bottom:24px">Контактный email: hello@convertix.ru</p>
+
+  <h3 style="font-size:16px;font-weight:600;margin-bottom:10px;color:#2EE87A">2. Какие данные мы собираем</h3>
+  <p style="font-size:14px;color:#8A9B8E;line-height:1.7;margin-bottom:24px">При оставлении заявки на сайте мы собираем: имя, номер телефона, информацию о нише или сфере деятельности. Данные передаются добровольно самим пользователем.</p>
+
+  <h3 style="font-size:16px;font-weight:600;margin-bottom:10px;color:#2EE87A">3. Цели обработки данных</h3>
+  <p style="font-size:14px;color:#8A9B8E;line-height:1.7;margin-bottom:24px">Персональные данные обрабатываются исключительно в целях: обратной связи с потенциальным клиентом, обсуждения условий сотрудничества, расчёта стоимости услуг лидогенерации.</p>
+
+  <h3 style="font-size:16px;font-weight:600;margin-bottom:10px;color:#2EE87A">4. Хранение и защита данных</h3>
+  <p style="font-size:14px;color:#8A9B8E;line-height:1.7;margin-bottom:24px">Данные хранятся на защищённых серверах. Мы не передаём персональные данные третьим лицам без согласия пользователя, за исключением случаев, предусмотренных действующим законодательством РФ.</p>
+
+  <h3 style="font-size:16px;font-weight:600;margin-bottom:10px;color:#2EE87A">5. Права пользователя</h3>
+  <p style="font-size:14px;color:#8A9B8E;line-height:1.7;margin-bottom:24px">Вы вправе в любой момент отозвать согласие на обработку персональных данных, направив запрос на hello@convertix.ru. После отзыва согласия данные будут удалены в течение 30 дней.</p>
+
+  <h3 style="font-size:16px;font-weight:600;margin-bottom:10px;color:#2EE87A">6. Использование cookies</h3>
+  <p style="font-size:14px;color:#8A9B8E;line-height:1.7;margin-bottom:24px">Сайт использует файлы cookie для корректной работы и сбора аналитики. Продолжая использование сайта, вы соглашаетесь с использованием cookies.</p>
+
+  <h3 style="font-size:16px;font-weight:600;margin-bottom:10px;color:#2EE87A">7. Контакты</h3>
+  <p style="font-size:14px;color:#8A9B8E;line-height:1.7">По вопросам обработки персональных данных обращайтесь: <a href="mailto:hello@convertix.ru" style="color:#2EE87A">hello@convertix.ru</a></p>
+</div>`;
+
+const OFFER_HTML = `
+<div style="font-family:'Inter',sans-serif;color:#F0F4F1">
+  <p style="font-size:12px;color:#4A5E4F;margin-bottom:8px;text-transform:uppercase;letter-spacing:.08em">Публичная оферта</p>
+  <h2 style="font-size:26px;font-weight:700;letter-spacing:-0.5px;margin-bottom:8px">Договор оказания услуг лидогенерации</h2>
+  <p style="font-size:13px;color:#4A5E4F;margin-bottom:32px">Редакция от 01.01.2025</p>
+
+  <h3 style="font-size:16px;font-weight:600;margin-bottom:10px;color:#2EE87A">1. Исполнитель</h3>
+  <p style="font-size:14px;color:#8A9B8E;line-height:1.7;margin-bottom:4px">Индивидуальный предприниматель Минсафин Илнар Наилович</p>
+  <p style="font-size:14px;color:#8A9B8E;line-height:1.7;margin-bottom:4px">ИНН: 631906126377 · ОГРНИП: 318631300103654</p>
+  <p style="font-size:14px;color:#8A9B8E;line-height:1.7;margin-bottom:4px">Расчётный счёт: 40802810320000019874</p>
+  <p style="font-size:14px;color:#8A9B8E;line-height:1.7;margin-bottom:4px">Банк: ООО «Банк Точка» · БИК: 044525104</p>
+  <p style="font-size:14px;color:#8A9B8E;line-height:1.7;margin-bottom:24px">Email: <a href="mailto:hello@convertix.ru" style="color:#2EE87A">hello@convertix.ru</a></p>
+
+  <h3 style="font-size:16px;font-weight:600;margin-bottom:10px;color:#2EE87A">2. Предмет договора</h3>
+  <p style="font-size:14px;color:#8A9B8E;line-height:1.7;margin-bottom:24px">Исполнитель оказывает Заказчику услуги лидогенерации: привлечение целевых обращений (лидов) потенциальных клиентов в согласованной нише с использованием рекламных каналов, AI-инструментов и колл-центра. Заказчик принимает и оплачивает переданные квалифицированные лиды.</p>
+
+  <h3 style="font-size:16px;font-weight:600;margin-bottom:10px;color:#2EE87A">3. Что входит в услугу</h3>
+  <p style="font-size:14px;color:#8A9B8E;line-height:1.7;margin-bottom:24px">Настройка и ведение рекламных кампаний; квалификация входящих обращений через AI и колл-центр; передача квалифицированных лидов (имя, телефон, запись разговора); предоставление отчётности по количеству переданных лидов.</p>
+
+  <h3 style="font-size:16px;font-weight:600;margin-bottom:10px;color:#2EE87A">4. Стоимость и порядок оплаты</h3>
+  <p style="font-size:14px;color:#8A9B8E;line-height:1.7;margin-bottom:24px">Стоимость одного квалифицированного лида устанавливается в индивидуальном соглашении. Оплата производится на основании акта передачи лидов. Реквизиты для оплаты указаны в разделе 1 настоящей оферты.</p>
+
+  <h3 style="font-size:16px;font-weight:600;margin-bottom:10px;color:#2EE87A">5. Гарантии и ответственность</h3>
+  <p style="font-size:14px;color:#8A9B8E;line-height:1.7;margin-bottom:24px">Исполнитель гарантирует передачу лидов, соответствующих согласованным критериям квалификации. Исполнитель не несёт ответственности за конверсию лидов в сделки на стороне Заказчика — это зависит от работы отдела продаж Заказчика.</p>
+
+  <h3 style="font-size:16px;font-weight:600;margin-bottom:10px;color:#2EE87A">6. Акцепт оферты</h3>
+  <p style="font-size:14px;color:#8A9B8E;line-height:1.7;margin-bottom:24px">Акцептом настоящей оферты является оплата счёта или подписание индивидуального соглашения. С момента акцепта договор считается заключённым.</p>
+
+  <h3 style="font-size:16px;font-weight:600;margin-bottom:10px;color:#2EE87A">7. Применимое право</h3>
+  <p style="font-size:14px;color:#8A9B8E;line-height:1.7">Договор регулируется законодательством Российской Федерации. Все споры разрешаются путём переговоров, при недостижении согласия — в суде по месту регистрации Исполнителя.</p>
+</div>`;
+
+function openModal(type) {
+  document.getElementById('modalContent').innerHTML = type === 'privacy' ? PRIVACY_HTML : OFFER_HTML;
+  document.getElementById('modalOverlay').style.display = 'block';
+  document.body.style.overflow = 'hidden';
+}
+function closeModal() {
+  document.getElementById('modalOverlay').style.display = 'none';
+  document.body.style.overflow = '';
+}
+document.addEventListener('keydown', e => { if(e.key === 'Escape') closeModal(); });
+</script>
+
+<script>
+// Scroll observer
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('visible');
+      // animate counters
+      e.target.querySelectorAll('[data-target]').forEach(animateCounter);
+      // animate bars
+      e.target.closest('section')?.querySelectorAll('.bar-fill').forEach(b => b.classList.add('animate'));
+    }
+  });
+}, {threshold: 0.15});
+
+document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+// Also watch bars separately
+const barObserver = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.querySelectorAll('.bar-fill').forEach(b => b.classList.add('animate'));
+    }
+  });
+}, {threshold: 0.2});
+
+document.querySelectorAll('.case-card').forEach(el => barObserver.observe(el));
+
+// Counter animation
+function animateCounter(el) {
+  if (el.dataset.animated) return;
+  el.dataset.animated = '1';
+  const target = parseInt(el.dataset.target);
+  const prefix = el.dataset.prefix || '';
+  const suffix = el.dataset.suffix || '';
+  const dur = 1800;
+  const start = performance.now();
+  function step(now) {
+    const p = Math.min((now - start) / dur, 1);
+    const ease = 1 - Math.pow(1 - p, 3);
+    const val = Math.round(ease * target);
+    el.textContent = prefix + val.toLocaleString('ru-RU') + suffix;
+    if (p < 1) requestAnimationFrame(step);
+  }
+  requestAnimationFrame(step);
+}
+
+// Funnel animation
+const stages = document.querySelectorAll('.fstage');
+let currentStage = 0;
+function cycleFunnel() {
+  stages.forEach((s, i) => s.classList.toggle('active', i === currentStage));
+  currentStage = (currentStage + 1) % stages.length;
+}
+setInterval(cycleFunnel, 1000);
+
+// FAQ
+document.querySelectorAll('.faq-q').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const item = btn.closest('.faq-item');
+    const wasOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+    if (!wasOpen) item.classList.add('open');
+  });
+});
+
+// Calculator
+const nicheData = {
+  bfl: {cpl: '1 000–1 500 ₽', channel: 'Яндекс Директ', mult: 1.0},
+  realty: {cpl: '2 000–3 500 ₽', channel: 'Директ + SEO', mult: 1.2},
+  auto: {cpl: '1 200–2 200 ₽', channel: 'Telegram + Директ', mult: 1.1},
+  school: {cpl: '400–800 ₽', channel: 'Яндекс Директ', mult: 0.8},
+  dental: {cpl: '900–1 800 ₽', channel: 'Директ + Retarget', mult: 1.0},
+  b2b: {cpl: '3 000–6 000 ₽', channel: 'Директ + Прямые', mult: 1.4},
+  other: {cpl: 'По запросу', channel: 'Подберём индивидуально', mult: 1.0},
+};
+
+function calcResult() {
+  const niche = document.getElementById('calcNiche').value;
+  const count = parseInt(document.getElementById('calcCount').value) || 100;
+  if (!niche) { alert('Выберите нишу'); return; }
+  const d = nicheData[niche];
+  document.getElementById('rLeads').textContent = count + '+';
+  document.getElementById('rCpl').textContent = d.cpl;
+  document.getElementById('rChannel').textContent = d.channel;
+  const r = document.getElementById('calcResult');
+  r.classList.add('show');
+  r.scrollIntoView({behavior:'smooth', block:'nearest'});
+}
+
+function submitCalc() {
+  const n = document.getElementById('rfName').value.trim();
+  const p = document.getElementById('rfPhone').value.trim();
+  const niche = document.getElementById('calcNiche').options[document.getElementById('calcNiche').selectedIndex].text;
+  const region = document.getElementById('calcRegion').options[document.getElementById('calcRegion').selectedIndex].text;
+  const count = document.getElementById('calcCount').value || '—';
+  if (!n || !p) { alert('Заполните имя и телефон'); return; }
+  sendLead({name:n, phone:p, source:'Калькулятор', niche, region, count});
+}
+
+function submitCta() {
+  const n = document.getElementById('ctaName').value.trim();
+  const p = document.getElementById('ctaPhone').value.trim();
+  const niche = document.getElementById('ctaNiche').value || '—';
+  if (!n || !p) { alert('Заполните имя и телефон'); return; }
+  sendLead({name:n, phone:p, source:'Форма на сайте', niche});
+}
+
+async function sendLead(data) {
+  const body = {
+    _subject: 'Новая заявка с сайта Convertix — ' + data.source,
+    Имя: data.name,
+    Телефон: data.phone,
+    Источник: data.source,
+    Ниша: data.niche || '—',
+    Регион: data.region || '—',
+    'Количество лидов': data.count || '—',
+    _template: 'table',
+    _captcha: 'false'
+  };
+  try {
+    const r = await fetch('https://formsubmit.co/ajax/ilnar_minsafin@mail.ru', {
+      method: 'POST',
+      headers: {'Content-Type':'application/json', 'Accept':'application/json'},
+      body: JSON.stringify(body)
+    });
+    const res = await r.json();
+    if (res.success === 'true' || res.success === true) {
+      showThanks(data.name);
+    } else {
+      showThanks(data.name);
+    }
+  } catch(e) {
+    showThanks(data.name);
+  }
+}
+
+function showThanks(name) {
+  const el = document.createElement('div');
+  el.style.cssText = 'position:fixed;inset:0;z-index:9999;background:rgba(8,12,9,0.95);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:20px;text-align:center;padding:40px';
+  el.innerHTML = '<div style="width:64px;height:64px;border-radius:50%;background:rgba(46,232,122,0.15);border:1px solid #2EE87A;display:flex;align-items:center;justify-content:center;font-size:28px;margin:0 auto">✓</div>'
+    + '<h2 style="font-size:28px;font-weight:700;color:#F0F4F1;letter-spacing:-0.5px">' + name + ', заявка принята!</h2>'
+    + '<p style="font-size:16px;color:#8A9B8E;max-width:400px;line-height:1.7">Мы получили вашу заявку и перезвоним в течение 15 минут.</p>'
+    + '<button onclick="this.parentElement.remove()" style="background:#2EE87A;color:#080C09;border:none;font-size:15px;font-weight:600;padding:14px 32px;border-radius:8px;cursor:pointer;font-family:Inter,sans-serif">Закрыть</button>';
+  document.body.appendChild(el);
+}
+</script>
+</body>
+</html>
